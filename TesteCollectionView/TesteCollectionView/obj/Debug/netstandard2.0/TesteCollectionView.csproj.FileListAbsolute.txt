@@ -1,0 +1,15 @@
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\bin\Debug\netstandard2.0\TesteCollectionView.deps.json
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\bin\Debug\netstandard2.0\TesteCollectionView.dll
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\bin\Debug\netstandard2.0\ref\TesteCollectionView.dll
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\bin\Debug\netstandard2.0\TesteCollectionView.pdb
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\obj\Debug\netstandard2.0\TesteCollectionView.csprojAssemblyReference.cache
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\obj\Debug\netstandard2.0\Views\PaginaCollection.xaml.g.cs
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\obj\Debug\netstandard2.0\Views\Templates\TesteTemplate.xaml.g.cs
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\obj\Debug\netstandard2.0\TesteCollectionView.csproj.CoreCompileInputs.cache
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\obj\Debug\netstandard2.0\TesteCollectionView.AssemblyInfoInputs.cache
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\obj\Debug\netstandard2.0\TesteCollectionView.AssemblyInfo.cs
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\obj\Debug\netstandard2.0\XamlC.stamp
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\obj\Debug\netstandard2.0\TesteCollectionView.dll
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\obj\Debug\netstandard2.0\ref\TesteCollectionView.dll
+C:\GitHub\Testes\TesteCollectionView\TesteCollectionView\TesteCollectionView\obj\Debug\netstandard2.0\TesteCollectionView.pdb

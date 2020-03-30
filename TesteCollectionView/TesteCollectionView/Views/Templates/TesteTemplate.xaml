@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TesteCollectionView.Views.Templates.TesteTemplate">
+    <ContentView.Content>
+        <StackLayout HeightRequest="30"
+                                     WidthRequest="30"
+                                     HorizontalOptions="Center">
+            <Frame>
+                <Label Text="{Binding .}" FontSize="Body" BackgroundColor="Azure" TextColor="Black" HorizontalOptions="Center"/>
+                <!--<Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" NumberOfTapsRequired="1"/>
+                </Frame.GestureRecognizers>-->
+            </Frame>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
+
+<!--<Label Text="{Binding BindingDaPagina.PropTeste}" />-->

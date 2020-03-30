@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:templates="clr-namespace:TesteCollectionView.Views.Templates"
+             xmlns:Behaviors="clr-namespace:TesteCollectionView.Behaviors"
+    mc:Ignorable="d"
+             x:Class="TesteCollectionView.Views.PaginaCollection"
+             x:Name="CollectionPagina">
+    <ContentPage.Content>
+        <StackLayout>
+            <CollectionView ItemsSource="{Binding ListaString}" 
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand"
+                            SelectionMode="Single"
+                            SelectionChangedCommand="{Binding SelectionChangedCommand}"
+                            >
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="1" VerticalItemSpacing="20" >
+                    </GridItemsLayout>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <templates:TesteTemplate />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.Behaviors>
+                    <Behaviors:ItemSelectedBehaviors 
+                        Command="{Binding ItemSelectedCommand}" />
+                </CollectionView.Behaviors>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    
+    
+    
+                <!--<CollectionView.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding }}"/>
+                </CollectionView.GestureRecognizers>-->
+    
+                    <!--BindingDaPagina="{Binding BindingContext, Source={x:Reference Name=CollectionPagina}}"-->
